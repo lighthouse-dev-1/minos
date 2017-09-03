@@ -1,0 +1,183 @@
+.wrap {
+  background-color: #f0f0f0;
+}
+
+.header{
+  width: 70%;
+  height: 2em;  
+  margin: 0 auto;
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+.header span{
+  font-size: 1.2em;
+  color: #20B2AA;
+}
+
+.task {
+  width: 70%;
+  min-height: 22em;
+  margin: 3em auto 0 auto;  
+  background-color: white;
+  border: 0.1em solid #75768b;  
+  border-radius: 3px 3px 3px 3px;
+}
+
+.spaceName {
+  width: 70%;
+  height: 1em;  
+  margin: 2em auto 0 auto;
+  padding-left: 2em;
+} 
+
+.spaceName .input_title{
+  width: 20em;
+}
+
+.projectId {
+  width: 70%;
+  height: 1em;  
+  margin: 2em auto 0 auto;
+  padding-left: 2em;
+}
+
+.projectId .input_title{
+  width: 20em;
+}
+
+#button {
+  width: 180px;
+  height: 3em;
+  color: #fff;
+  background-color: #2c9a7a;
+  font-size: 1em;
+  font-weight: bold;
+  border: none;  
+  border-radius: 7px 7px 7px 7px;
+}
+
+#submit {
+  width: 180px;
+  height: 3em;
+  color: #fff;
+  background-color: #3d5791;
+  font-size: 1em;
+  font-weight: bold;
+  border: none;  
+  border-radius: 7px 7px 7px 7px;
+}
+
+.title {
+  min-height: 2em;  
+  padding: 2em 1.5em 0.5em 1em;
+}
+
+.content {
+  min-height: 13em;  
+  padding: 0.2em 1.5em 0.5em 1em;
+}
+
+.save {
+  padding: 5em 1em 5em 1em;
+  text-align: center;
+}
+
+.menu {
+  float: left;  
+  width: 15%;
+  height: 1em;;
+  color: #75768b;  
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+.input_title {
+  width: 80%;
+  height: 2em;
+  font-size: 15px;  
+  border: 1px solid #75768b;
+  border-radius: 7px 7px 7px 7px;
+}
+
+.textarea_editer {
+  width: 80%; 
+  min-height: 13em;  
+  overflow: auto;
+  resize: vertical;
+  border: 1px solid #75768b;
+  border-radius: 7px 7px 7px 7px;
+  font-size: 15px;
+}
+
+.task_del {
+  float: right;  
+  padding: 0.5em 0.5em 0em 0em;
+}
+
+.del_btn {
+  font-weight: bold;
+  color: #fff;
+  background-color: red;
+  border: none;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.add{
+  width: 70%;
+  margin: 1em auto;
+}
+
+.add_button {
+  float: left;
+  width: 9em;
+  height: 2.5em;
+  padding: 0.2em 0.2em 0.2em 0.2em;  
+  color: #fff;
+  background-color: #148ba8;
+  font-size: 1em;  
+  font-weight: bold;
+  border: none;
+  border-radius: 20px 20px 20px 20px;
+}
+
+.issueType {
+  min-height: 1.5em;
+  padding: 0.2em 1.5em 0.5em 1em;
+}
+
+.priority {
+  min-height: 1.5em;
+  padding: 0.2em 1.5em 0.5em 1em;
+  margin-bottom: 0.5em;
+}
+
+.selectBox {
+  width: 10em; 
+  height: 2em;
+  border: 1px solid #75768b;
+  font-size: 1em;
+}
+
+#connectForm {
+	width: 70%;
+  margin: 0 auto 0 auto;
+}
+
+#uploadExcelForm {
+	width: 70%;
+	margin: 0 auto 0 auto;
+}
+
+#fileInput {
+	width: 13em;
+}
+
+#drag-drop-area {
+  width: 100%;  
+  padding-top: 15px;  
+  text-align: center;  
+	background-color: #fff;
+	border: 3px dotted #adadad;
+	border-radius: 4px;
+}
